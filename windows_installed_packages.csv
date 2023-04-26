@@ -1,0 +1,797 @@
+"","Package","LibPath","Version","Priority","Depends","Imports","LinkingTo","Suggests","Enhances","License","License_is_FOSS","License_restricts_use","OS_type","MD5sum","NeedsCompilation","Built","source"
+"1","airtabler","C:/Users/pottj/R/packages","0.1.6",NA,"R (>= 3.2.0)","httr, jsonlite",NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.3","https://github.com/bergant/airtabler"
+"2","askpass","C:/Users/pottj/R/packages","1.1",NA,NA,"sys (>= 2.1)",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.1.1","CRAN"
+"3","assertthat","C:/Users/pottj/R/packages","0.2.1",NA,NA,"tools",NA,"testthat, covr",NA,"GPL-3",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"4","audio","C:/Users/pottj/R/packages","0.1-10",NA,"R (>= 2.0.0)",NA,NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.1.2","CRAN"
+"5","AzureAuth","C:/Users/pottj/R/packages","1.3.3",NA,"R (>= 3.3)","utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs",NA,"knitr, rmarkdown, testthat, httpuv, shiny, shinyjs, AzureRMR,
+AzureGraph",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"6","AzureGraph","C:/Users/pottj/R/packages","1.3.2",NA,"R (>= 3.3)","AzureAuth (>= 1.0.1), utils, httr (>= 1.3), jsonlite, openssl,
+curl, R6",NA,"AzureRMR, vctrs, knitr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"7","backports","C:/Users/pottj/R/packages","1.4.1",NA,"R (>= 3.0.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.1.2","CRAN"
+"8","base64enc","C:/Users/pottj/R/packages","0.1-3",NA,"R (>= 2.9.0)",NA,NA,NA,"png","GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.1.1","CRAN"
+"9","bayestestR","C:/Users/pottj/R/packages","0.13.1",NA,"R (>= 3.6)","insight (>= 0.19.1), datawizard (>= 0.7.0), graphics, methods,
+stats, utils",NA,"BayesFactor (>= 0.9.12-4.4), bayesQR, bayesplot, BH, blavaan,
+bridgesampling, brms, curl, effectsize, emmeans, gamm4, ggdist,
+ggplot2, glmmTMB, httr, KernSmooth, knitr, lavaan, lme4,
+logspline, MASS, mclust, mediation, modelbased, parameters,
+patchwork, performance, quadprog, posterior, RcppEigen,
+rmarkdown, rstan, rstanarm, see (>= 0.7.5), testthat, tweedie",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"10","beepr","C:/Users/pottj/R/packages","1.3",NA,NA,"stringr (>= 1.0.0), audio",NA,NA,NA,"GPL-3",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"11","BH","C:/Users/pottj/R/packages","1.81.0-1",NA,NA,NA,NA,NA,NA,"BSL-1.0",NA,NA,NA,NA,"no","4.2.2","CRAN"
+"12","bigD","C:/Users/pottj/R/packages","0.2.0",NA,"R (>= 3.2.0)",NA,NA,"covr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"13","bit","C:/Users/pottj/R/packages","4.0.5",NA,"R (>= 2.9.2)",NA,NA,"testthat (>= 0.11.0), roxygen2, knitr, rmarkdown,
+microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"14","bit64","C:/Users/pottj/R/packages","4.0.5",NA,"R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.1.1","CRAN"
+"15","bitops","C:/Users/pottj/R/packages","1.0-7",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.1.1","CRAN"
+"16","blob","C:/Users/pottj/R/packages","1.2.4",NA,NA,"methods, rlang, vctrs (>= 0.2.1)",NA,"covr, crayon, pillar (>= 1.2.1), testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"17","brew","C:/Users/pottj/R/packages","1.0-8",NA,NA,NA,NA,"testthat (>= 3.0.0)",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"18","brio","C:/Users/pottj/R/packages","1.1.3",NA,NA,NA,NA,"covr, testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.1.2","CRAN"
+"19","broom","C:/Users/pottj/R/packages","1.0.4",NA,"R (>= 3.5)","backports, dplyr (>= 1.0.0), ellipsis, generics (>= 0.0.2),
+glue, lifecycle, purrr, rlang, stringr, tibble (>= 3.0.0),
+tidyr (>= 1.0.0)",NA,"AER, AUC, bbmle, betareg, biglm, binGroup, boot, btergm (>=
+1.10.6), car, carData, caret, cluster, cmprsk, coda, covr, drc,
+e1071, emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.9.0), gam
+(>= 1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm,
+Hmisc, irlba, interp, joineRML, Kendall, knitr, ks, Lahman,
+lavaan, leaps, lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38),
+lsmeans, maps, maptools, margins, MASS, mclust, mediation,
+metafor, mfx, mgcv, mlogit, modeldata, modeltests, muhaz,
+multcomp, network, nnet, orcutt (>= 2.2), ordinal, plm, poLCA,
+psych, quantreg, rgeos, rmarkdown, robust, robustbase, rsample,
+sandwich, sp, spdep (>= 1.1), spatialreg, speedglm, spelling,
+survey, survival, systemfit, testthat (>= 2.1.0), tseries,
+vars, zoo",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"20","bslib","C:/Users/pottj/R/packages","0.4.2",NA,"R (>= 2.10)","grDevices, htmltools (>= 0.5.4), jsonlite, sass (>= 0.4.0),
+jquerylib (>= 0.1.3), rlang, cachem, memoise (>= 2.0.1),
+base64enc, mime",NA,"shiny (>= 1.6.0), rmarkdown (>= 2.7), thematic, knitr,
+testthat, withr, rappdirs, curl, magrittr, fontawesome, bsicons",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"21","cachem","C:/Users/pottj/R/packages","1.0.7",NA,NA,"rlang, fastmap",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"22","callr","C:/Users/pottj/R/packages","3.7.3",NA,"R (>= 3.4)","processx (>= 3.6.1), R6, utils",NA,"asciicast, cli (>= 1.1.0), covr, mockery, ps, rprojroot,
+spelling, testthat (>= 3.0.0), withr (>= 2.3.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"23","cellranger","C:/Users/pottj/R/packages","1.1.0",NA,"R (>= 3.0.0)","rematch, tibble",NA,"covr, testthat (>= 1.0.0), knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"24","checkmate","C:/Users/pottj/R/packages","2.1.0",NA,"R (>= 3.0.0)","backports (>= 1.1.0), utils",NA,"R6, fastmatch, data.table (>= 1.9.8), devtools, ggplot2,
+knitr, magrittr, microbenchmark, rmarkdown, testthat (>=
+3.0.4), tinytest (>= 1.1.0), tibble",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.1.3","CRAN"
+"25","chron","C:/Users/pottj/R/packages","2.3-60",NA,"R (>= 2.12.0)","graphics, stats",NA,"scales, ggplot2","zoo","GPL-2",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"26","class","C:/Users/pottj/R/packages","7.3-21","recommended","R (>= 3.0.0), stats, utils","MASS",NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"27","cli","C:/Users/pottj/R/packages","3.6.1",NA,"R (>= 3.4)","utils",NA,"callr, covr, crayon, digest, glue (>= 1.6.0), grDevices,
+htmltools, htmlwidgets, knitr, methods, mockery, processx, ps
+(>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
+rstudioapi, testthat, tibble, whoami, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"28","clipr","C:/Users/pottj/R/packages","0.8.0",NA,NA,"utils",NA,"covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>=
+2.0.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"29","clisymbols","C:/Users/pottj/R/packages","1.2.0",NA,NA,NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"30","clock","C:/Users/pottj/R/packages","0.6.1",NA,"R (>= 3.4)","rlang (>= 1.0.4), tzdb (>= 0.3.0), vctrs (>= 0.4.1)","cpp11 (>= 0.4.2), tzdb (>= 0.3.0)","covr, knitr, magrittr, pillar, rmarkdown, testthat (>=
+3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"31","collections","C:/Users/pottj/R/packages","0.3.7",NA,NA,NA,NA,"testthat (>= 2.3.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"32","colorspace","C:/Users/pottj/R/packages","2.1-0",NA,"R (>= 3.0.0), methods","graphics, grDevices, stats",NA,"datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
+tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
+knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+wesanderson",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"33","commonmark","C:/Users/pottj/R/packages","1.9.0",NA,NA,NA,NA,"curl, testthat, xml2",NA,"BSD_2_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"34","config","C:/Users/pottj/R/packages","0.3.1",NA,NA,"yaml (>= 2.1.19)",NA,"testthat, knitr, rmarkdown, covr, spelling",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"35","conflicted","C:/Users/pottj/R/packages","1.2.0",NA,"R (>= 3.2)","cli (>= 3.4.0), memoise, rlang (>= 1.0.0)",NA,"callr, covr, dplyr, Matrix, methods, pkgload, testthat (>=
+3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"36","correlation","C:/Users/pottj/R/packages","0.8.4",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), datasets, datawizard (>= 0.7.0),
+insight (>= 0.19.1), parameters (>= 0.20.2), stats",NA,"BayesFactor, energy, ggplot2, ggraph, gt, Hmisc, knitr, lme4,
+MASS, mbend, polycor, poorman, ppcor, psych, rmarkdown, rmcorr,
+rstanarm, see (>= 0.7.5), testthat (>= 3.1.7), tidygraph, wdm,
+WRS2",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"37","cpp11","C:/Users/pottj/R/packages","0.4.3",NA,NA,NA,NA,"bench, brio, callr, cli, covr, decor, desc, ggplot2, glue,
+knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp,
+testthat, tibble, utils, vctrs, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"38","crayon","C:/Users/pottj/R/packages","1.5.2",NA,NA,"grDevices, methods, utils",NA,"mockery, rstudioapi, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"39","credentials","C:/Users/pottj/R/packages","1.3.2",NA,NA,"openssl (>= 1.3), sys (>= 2.1), curl, jsonlite, askpass",NA,"testthat, knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.2","CRAN"
+"40","crul","C:/Users/pottj/R/packages","1.3",NA,NA,"curl (>= 3.3), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
+(>= 0.2.0), jsonlite, mime",NA,"testthat, roxygen2 (>= 7.1.1), fauxpas (>= 0.1.0), webmockr
+(>= 0.1.0), knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"41","curl","C:/Users/pottj/R/packages","5.0.0",NA,"R (>= 3.0.0)",NA,NA,"spelling, testthat (>= 1.0.0), knitr, jsonlite, rmarkdown,
+magrittr, httpuv (>= 1.4.4), webutils",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"42","cyclocomp","C:/Users/pottj/R/packages","1.1.0",NA,NA,"callr, crayon, desc, remotes, withr",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.0","CRAN"
+"43","data.table","C:/Users/pottj/R/packages","1.14.8",NA,"R (>= 3.1.0)","methods",NA,"bit64 (>= 4.0.0), bit (>= 4.0.4), curl, R.utils, xts,
+nanotime, zoo (>= 1.8-1), yaml, knitr, rmarkdown",NA,"MPL-2.0 | file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"44","datawizard","C:/Users/pottj/R/packages","0.7.1",NA,"R (>= 3.6)","insight (>= 0.19.1), stats, utils",NA,"bayestestR, boot, brms, data.table, dplyr (>= 1.0),
+effectsize, gamm4, ggplot2, gt, haven, htmltools, httr, knitr,
+lme4, mediation, parameters (>= 0.20.2), poorman (>= 0.2.6),
+psych, readxl, readr, rio, rmarkdown, rstanarm, see, testthat
+(>= 3.1.6), tidyr, withr",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"45","DBI","C:/Users/pottj/R/packages","1.1.3",NA,"methods, R (>= 3.0.0)",NA,NA,"blob, covr, DBItest, dbplyr, downlit, dplyr, glue, hms,
+knitr, magrittr, RMariaDB, rmarkdown, rprojroot, RSQLite (>=
+1.1-2), testthat, xml2",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"46","dbplyr","C:/Users/pottj/R/packages","2.3.2",NA,"R (>= 3.1)","blob (>= 1.2.0), cli (>= 3.4.1), DBI (>= 1.0.0), dplyr (>=
+1.1.0), glue (>= 1.2.0), lifecycle (>= 1.0.3), magrittr,
+methods, pillar (>= 1.5.0), purrr (>= 1.0.1), R6 (>= 2.2.2),
+rlang (>= 1.0.6), tibble (>= 1.4.2), tidyr (>= 1.3.0),
+tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr",NA,"bit64, covr, knitr, Lahman, nycflights13, odbc, RMariaDB (>=
+1.0.2), rmarkdown, RPostgres (>= 1.1.3), RPostgreSQL, RSQLite
+(>= 2.2.15), testthat (>= 3.0.2)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"47","desc","C:/Users/pottj/R/packages","1.4.2",NA,"R (>= 3.4)","cli, R6, rprojroot, utils",NA,"callr, covr, gh, spelling, testthat, whoami, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"48","devtools","C:/Users/pottj/R/packages","2.4.5",NA,"R (>= 3.0.2), usethis (>= 2.1.6)","cli (>= 3.3.0), desc (>= 1.4.1), ellipsis (>= 0.3.2), fs (>=
+1.5.2), lifecycle (>= 1.0.1), memoise (>= 2.0.1), miniUI (>=
+0.1.1.1), pkgbuild (>= 1.3.1), pkgdown (>= 2.0.6), pkgload (>=
+1.3.0), profvis (>= 0.3.7), rcmdcheck (>= 1.4.0), remotes (>=
+2.4.2), rlang (>= 1.0.4), roxygen2 (>= 7.2.1), rversions (>=
+2.1.1), sessioninfo (>= 1.2.2), stats, testthat (>= 3.1.5),
+tools, urlchecker (>= 1.0.1), utils, withr (>= 2.5.0)",NA,"BiocManager (>= 1.30.18), callr (>= 3.7.1), covr (>= 3.5.1),
+curl (>= 4.3.2), digest (>= 0.6.29), DT (>= 0.23), foghorn (>=
+1.4.2), gh (>= 1.3.0), gmailr (>= 1.0.1), httr (>= 1.4.3),
+knitr (>= 1.39), lintr (>= 3.0.0), MASS, mockery (>= 0.4.3),
+pingr (>= 2.0.1), rhub (>= 1.1.1), rmarkdown (>= 2.14),
+rstudioapi (>= 0.13), spelling (>= 2.2)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"49","diagram","C:/Users/pottj/R/packages","1.6.5",NA,"R (>= 2.01), shape","stats, graphics",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.0","CRAN"
+"50","dials","C:/Users/pottj/R/packages","1.2.0",NA,"R (>= 3.4), scales","cli, DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 1.1.0),
+lifecycle, pillar, purrr, rlang (>= 1.1.0), tibble, utils,
+vctrs (>= 0.3.8), withr",NA,"covr, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.0.0),
+xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"51","DiceDesign","C:/Users/pottj/R/packages","1.9",NA,"R (>= 2.10)",NA,NA,"rgl, randtoolbox, lattice",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.1","CRAN"
+"52","diffobj","C:/Users/pottj/R/packages","0.3.5",NA,"R (>= 3.1.0)","crayon (>= 1.3.2), tools, methods, utils, stats",NA,"knitr, rmarkdown",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.1.1","CRAN"
+"53","digest","C:/Users/pottj/R/packages","0.6.31",NA,"R (>= 3.3.0)","utils",NA,"tinytest, simplermarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"54","dmtools","C:/Users/pottj/R/packages","0.2.6",NA,"R (>= 3.6)","magrittr (>= 1.5), dplyr (>= 1.0.0), readxl (>= 1.3.1), purrr
+(>= 0.3.3), lubridate (>= 1.7.4), httr (>= 1.4.1), tidyr (>=
+1.1.0), tibble (>= 3.0.1), progress (>= 1.2.2)",NA,"testthat, knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"55","downlit","C:/Users/pottj/R/packages","0.4.2",NA,"R (>= 3.4.0)","brio, desc, digest, evaluate, fansi, memoise, rlang, vctrs,
+withr, yaml",NA,"covr, htmltools, jsonlite, MASS, MassSpecWavelet, pkgload,
+rmarkdown, testthat (>= 3.0.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"56","dplyr","C:/Users/pottj/R/packages","1.1.2",NA,"R (>= 3.5.0)","cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>=
+1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6,
+rlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0),
+utils, vctrs (>= 0.6.0)",NA,"bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2,
+knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr,
+rmarkdown, RMySQL, RPostgreSQL, RSQLite, stringi (>= 1.7.6),
+testthat (>= 3.1.5), tidyr (>= 1.3.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"57","dtplyr","C:/Users/pottj/R/packages","1.3.1",NA,"R (>= 3.3)","cli (>= 3.4.0), data.table (>= 1.13.0), dplyr (>= 1.1.0),
+glue, lifecycle, rlang (>= 1.0.4), tibble, tidyselect (>=
+1.2.0), vctrs (>= 0.4.1)",NA,"bench, covr, knitr, rmarkdown, testthat (>= 3.1.2), tidyr (>=
+1.1.0), waldo (>= 0.3.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"58","easystats","C:/Users/pottj/R/packages","0.6.0",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), correlation (>= 0.8.3), datawizard (>=
+0.6.4), effectsize (>= 0.8.2), insight (>= 0.18.8), modelbased
+(>= 0.8.5), parameters (>= 0.20.0), performance (>= 0.10.1),
+report (>= 0.5.1), see (>= 0.7.4), tools, utils",NA,"DT, flexdashboard (>= 0.6.0), jsonlite, knitr, rmarkdown,
+rvest, testthat (>= 3.1.0), withr, xml2",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"59","effectsize","C:/Users/pottj/R/packages","0.8.3",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), insight (>= 0.18.8), parameters (>=
+0.20.2), performance (>= 0.10.2), datawizard (>= 0.6.5), stats,
+utils",NA,"correlation (>= 0.8.3), see (>= 0.7.4), afex, BayesFactor,
+boot, brms, car, emmeans, gt, knitr, lavaan, lme4, lmerTest,
+MASS, mgcv, parsnip, rmarkdown, rms, rstanarm, rstantools,
+testthat (>= 3.1.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"60","ellipsis","C:/Users/pottj/R/packages","0.3.2",NA,"R (>= 3.2)","rlang (>= 0.3.0)",NA,"covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.1.1","CRAN"
+"61","emoji","C:/Users/pottj/R/packages","15.0",NA,"R (>= 2.10)","tibble, stringr, glue",NA,"covr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"62","evaluate","C:/Users/pottj/R/packages","0.20",NA,"R (>= 3.0.2)","methods",NA,"covr, ggplot2, lattice, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"63","extrafont","C:/Users/pottj/R/packages","0.19",NA,"R (>= 2.15)","extrafontdb, grDevices, utils, Rttf2pt1",NA,"fontcm",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2","CRAN"
+"64","extrafontdb","C:/Users/pottj/R/packages","1.0",NA,"R (>= 2.14)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,NA,"4.1.1","CRAN"
+"65","fansi","C:/Users/pottj/R/packages","1.0.4",NA,"R (>= 3.1.0)","grDevices, utils",NA,"unitizer, knitr, rmarkdown",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"66","farver","C:/Users/pottj/R/packages","2.1.1",NA,NA,NA,NA,"covr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"67","fastmap","C:/Users/pottj/R/packages","1.1.1",NA,NA,NA,NA,"testthat (>= 2.1.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"68","filelock","C:/Users/pottj/R/packages","1.0.2",NA,NA,NA,NA,"callr (>= 2.0.0), covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.1.2","CRAN"
+"69","fontawesome","C:/Users/pottj/R/packages","0.5.1",NA,"R (>= 3.3.0)","rlang (>= 1.0.6), htmltools (>= 0.5.1.1)",NA,"covr, dplyr (>= 1.0.8), knitr (>= 1.31), testthat (>= 3.0.0),
+rsvg",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"70","fontBitstreamVera","C:/Users/pottj/R/packages","0.1.1",NA,"R (>= 3.0.0)",NA,NA,NA,NA,"file LICENCE","yes",NA,NA,NA,"no","4.2.0","CRAN"
+"71","fontLiberation","C:/Users/pottj/R/packages","0.1.0",NA,"R (>= 3.0)",NA,NA,NA,NA,"file LICENSE","yes",NA,NA,NA,"no","4.2.0","CRAN"
+"72","fontquiver","C:/Users/pottj/R/packages","0.2.1",NA,"R (>= 3.0.0)","fontBitstreamVera (>= 0.1.0), fontLiberation (>= 0.1.0)",NA,"testthat, htmltools",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"73","forcats","C:/Users/pottj/R/packages","1.0.0",NA,"R (>= 3.4)","cli (>= 3.4.0), glue, lifecycle, magrittr, rlang (>= 1.0.0),
+tibble",NA,"covr, dplyr, ggplot2, knitr, readr, rmarkdown, testthat (>=
+3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"74","foreach","C:/Users/pottj/R/packages","1.5.2",NA,"R (>= 2.5.0)","codetools, utils, iterators",NA,"randomForest, doMC, doParallel, testthat, knitr, rmarkdown",NA,"Apache License (== 2.0)",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"75","foreign","C:/Users/pottj/R/packages","0.8-84","recommended","R (>= 4.0.0)","methods, utils, stats",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2","CRAN"
+"76","forge","C:/Users/pottj/R/packages","0.2.0",NA,"R (>= 3.1.2)","rlang (>= 0.3.1), magrittr",NA,"testthat, covr",NA,"Apache License (>= 2.0)",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"77","fs","C:/Users/pottj/R/packages","1.6.2",NA,"R (>= 3.4)","methods",NA,"covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling,
+testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"78","furrr","C:/Users/pottj/R/packages","0.3.1",NA,"future (>= 1.25.0), R (>= 3.4.0)","globals (>= 0.14.0), lifecycle (>= 1.0.1), purrr (>= 0.3.4),
+rlang (>= 1.0.2), vctrs (>= 0.4.1)",NA,"carrier, covr, dplyr (>= 0.7.4), knitr, listenv (>= 0.6.0),
+magrittr, rmarkdown, testthat (>= 3.0.0), tidyselect, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"79","future","C:/Users/pottj/R/packages","1.32.0",NA,NA,"digest, globals (>= 0.16.1), listenv (>= 0.8.0), parallel,
+parallelly (>= 1.34.0), utils",NA,"methods, RhpcBLASctl, R.rsp, markdown",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"80","future.apply","C:/Users/pottj/R/packages","1.10.0",NA,"R (>= 3.2.0), future (>= 1.28.0)","globals (>= 0.16.1), parallel, utils",NA,"datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"81","fuzzyjoin","C:/Users/pottj/R/packages","0.1.6",NA,"R (>= 2.10)","stringdist, stringr, dplyr (>= 0.8.1), tidyr (>= 0.4.0),
+purrr, geosphere, tibble",NA,"testthat, knitr, ggplot2, qdapDictionaries, readr, rvest,
+rmarkdown, maps, IRanges, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"82","gargle","C:/Users/pottj/R/packages","1.4.0",NA,"R (>= 3.5)","cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>=
+1.4.5), jsonlite, lifecycle, openssl, rappdirs, rlang (>=
+1.1.0), stats, utils, withr",NA,"aws.ec2metadata, aws.signature, covr, httpuv, knitr,
+rmarkdown, sodium, spelling, testthat (>= 3.1.7)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"83","gdtools","C:/Users/pottj/R/packages","0.3.3",NA,"R (>= 4.0.0)","Rcpp (>= 0.12.12), systemfonts (>= 0.1.1), htmltools, gfonts,
+tools, curl, fontquiver (>= 0.2.0)","Rcpp","testthat, methods",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"84","generics","C:/Users/pottj/R/packages","0.1.3",NA,"R (>= 3.2)","methods",NA,"covr, pkgload, testthat (>= 3.0.0), tibble, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"85","geosphere","C:/Users/pottj/R/packages","1.5-18",NA,"R (>= 3.0.0)","Rcpp, sp","Rcpp","methods, raster",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"86","gert","C:/Users/pottj/R/packages","1.9.2",NA,NA,"askpass, credentials (>= 1.2.1), openssl (>= 2.0.3),
+rstudioapi (>= 0.11), sys, zip (>= 2.1.0)",NA,"spelling, knitr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"87","gfonts","C:/Users/pottj/R/packages","0.2.0",NA,"R (>= 2.10)","utils, htmltools, shiny, crul, jsonlite, glue, crayon",NA,"knitr, rmarkdown, testthat (>= 2.1.0), vcr, covr",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"88","ggplot2","C:/Users/pottj/R/packages","3.4.2",NA,"R (>= 3.3)","cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband,
+lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>=
+1.2.0), stats, tibble, vctrs (>= 0.5.0), withr (>= 2.5.0)",NA,"covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, lattice,
+mapproj, maps, maptools, multcomp, munsell, nlme, profvis,
+quantreg, ragg, RColorBrewer, rgeos, rmarkdown, rpart, sf (>=
+0.7-3), svglite (>= 1.2.0.9001), testthat (>= 3.1.2), vdiffr
+(>= 1.0.0), xml2","sp","MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"89","ggrepel","C:/Users/pottj/R/packages","0.9.3",NA,"R (>= 3.0.0), ggplot2 (>= 2.2.0)","grid, Rcpp, rlang (>= 0.3.0), scales (>= 0.5.0), withr (>=
+2.5.0)","Rcpp","knitr, rmarkdown, testthat, svglite, vdiffr, gridExtra,
+devtools, prettydoc, ggbeeswarm, dplyr, magrittr, readr,
+stringr",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"90","gh","C:/Users/pottj/R/packages","1.4.0",NA,"R (>= 3.4)","cli (>= 3.0.1), gitcreds, httr2, ini, jsonlite, rlang (>=
+1.0.0)",NA,"covr, knitr, mockery, rmarkdown, rprojroot, spelling,
+testthat (>= 3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"91","gitcreds","C:/Users/pottj/R/packages","0.1.2",NA,"R (>= 3.4)",NA,NA,"codetools, covr, knitr, mockery, oskeyring, rmarkdown,
+testthat (>= 3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"92","globals","C:/Users/pottj/R/packages","0.16.2",NA,"R (>= 3.1.2)","codetools",NA,NA,NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.2","CRAN"
+"93","glue","C:/Users/pottj/R/packages","1.6.2",NA,"R (>= 3.4)","methods",NA,"covr, crayon, DBI, dplyr, forcats, ggplot2, knitr, magrittr,
+microbenchmark, R.utils, rmarkdown, rprintf, RSQLite, stringr,
+testthat (>= 3.0.0), vctrs (>= 0.3.0), waldo (>= 0.3.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.1.3","CRAN"
+"94","googledrive","C:/Users/pottj/R/packages","2.1.0",NA,"R (>= 3.5)","cli (>= 3.0.0), gargle (>= 1.3.0), glue (>= 1.4.2), httr,
+jsonlite, lifecycle, magrittr, pillar, purrr (>= 1.0.1), rlang
+(>= 1.0.2), tibble (>= 2.0.0), utils, uuid, vctrs (>= 0.3.0),
+withr",NA,"covr, curl, downlit, dplyr (>= 1.0.0), knitr, mockr,
+rmarkdown, roxygen2, sodium, spelling, testthat (>= 3.1.3)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"95","googlesheets4","C:/Users/pottj/R/packages","1.1.0",NA,"R (>= 3.5)","cellranger, cli (>= 3.0.0), curl, gargle (>= 1.3.0), glue (>=
+1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr,
+methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
+utils, vctrs (>= 0.2.3), withr",NA,"covr, readr, rmarkdown, sodium, spelling, testthat (>= 3.1.7)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"96","gower","C:/Users/pottj/R/packages","1.0.1",NA,NA,NA,NA,"tinytest (>= 0.9.3),",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2","CRAN"
+"97","GPfit","C:/Users/pottj/R/packages","1.0-8",NA,NA,"lhs (>= 0.5), lattice (>= 0.18-8)",NA,"testthat",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"98","gt","C:/Users/pottj/R/packages","0.9.0",NA,"R (>= 3.2.0)","base64enc (>= 0.1-3), bigD (>= 0.2), bitops (>= 1.0-7), cli
+(>= 3.6.0), commonmark (>= 1.8.1), dplyr (>= 1.1.0), fs (>=
+1.6.1), glue (>= 1.6.2), htmltools (>= 0.5.4), htmlwidgets (>=
+1.6.1), juicyjuice (>= 0.1.0), magrittr (>= 2.0.2), markdown
+(>= 1.5), reactable (>= 0.4.3), rlang (>= 1.0.2), sass (>=
+0.4.5), scales (>= 1.2.1), tibble (>= 3.1.8), tidyselect (>=
+1.2.0), xml2 (>= 1.3.3)",NA,"covr, digest (>= 0.6.31), ggplot2, knitr, lubridate,
+paletteer, RColorBrewer, rmarkdown (>= 2.20), rvest, shiny (>=
+1.7.4), testthat (>= 3.1.6), tidyr, webshot2 (>= 0.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"99","gtable","C:/Users/pottj/R/packages","0.3.3",NA,"R (>= 3.5)","cli, glue, grid, lifecycle, rlang (>= 1.1.0)",NA,"covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"100","gtExtras","C:/Users/pottj/R/packages","0.4.5",NA,"R (>= 3.6.0)","commonmark, dplyr (>= 1.0.9), fontawesome (>= 0.4.0), ggplot2
+(>= 3.4.0), glue (>= 1.6.1), gt (>= 0.8.0), htmltools (>=
+0.5.3), paletteer (>= 1.4.0), rlang (>= 1.0.4), scales (>=
+1.2.0)",NA,"base64enc (>= 0.1-3), bitops (>= 1.0.6), covr, fs (>= 1.5.2),
+hms, magrittr (>= 1.5), rvest (>= 1.0.0), sass (>= 0.1.1),
+stringr (>= 1.3.1), svglite (>= 2.1.0), testthat (>= 3.0.0),
+tibble (>= 3.0.0), tidyr (>= 1.0.0), tidyselect (>= 1.0.0),
+webshot2 (>= 0.1.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"101","hardhat","C:/Users/pottj/R/packages","1.3.0",NA,"R (>= 3.5.0)","cli (>= 3.6.0), glue (>= 1.6.2), rlang (>= 1.1.0), tibble (>=
+3.2.1), vctrs (>= 0.6.0)",NA,"covr, crayon, devtools, knitr, Matrix, modeldata (>= 0.0.2),
+recipes (>= 1.0.5), rmarkdown (>= 2.3), roxygen2, testthat (>=
+3.0.0), usethis (>= 2.1.5)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"102","haven","C:/Users/pottj/R/packages","2.5.2",NA,"R (>= 3.4)","cli (>= 3.0.0), forcats (>= 0.2.0), hms, lifecycle, methods,
+readr (>= 0.1.0), rlang (>= 0.4.0), tibble, tidyselect, vctrs
+(>= 0.3.0)","cpp11","covr, crayon, fs, knitr, pillar (>= 1.4.0), rmarkdown,
+testthat (>= 3.0.0), utf8",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"103","here","C:/Users/pottj/R/packages","1.0.1",NA,NA,"rprojroot (>= 2.0.2)",NA,"conflicted, covr, fs, knitr, palmerpenguins, plyr, readr,
+rlang, rmarkdown, testthat, uuid, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"104","highr","C:/Users/pottj/R/packages","0.10",NA,"R (>= 3.3.0)","xfun (>= 0.18)",NA,"knitr, markdown, testit",NA,"GPL",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"105","hms","C:/Users/pottj/R/packages","1.1.3",NA,NA,"lifecycle, methods, pkgconfig, rlang (>= 1.0.2), vctrs (>=
+0.3.8)",NA,"crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"106","hrbrthemes","C:/Users/pottj/R/packages","0.8.0",NA,"R (>= 3.4.0)","ggplot2 (>= 3.3.0), grDevices, grid, scales, extrafont, knitr,
+rmarkdown, htmltools, tools, magrittr, gdtools",NA,"testthat, dplyr, gridExtra, hunspell, stringi, gcookbook,
+clipr, vdiffr, svglite",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"107","htmltools","C:/Users/pottj/R/packages","0.5.5",NA,"R (>= 2.14.1)","utils, digest, grDevices, base64enc, rlang (>= 0.4.10),
+fastmap (>= 1.1.0), ellipsis",NA,"markdown, testthat, withr, Cairo, ragg, shiny","knitr","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"108","htmlwidgets","C:/Users/pottj/R/packages","1.6.2",NA,NA,"grDevices, htmltools (>= 0.5.4), jsonlite (>= 0.9.16), yaml,
+knitr (>= 1.8), rmarkdown",NA,"testthat","shiny (>= 1.1)","MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"109","httpcode","C:/Users/pottj/R/packages","0.3.0",NA,NA,NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"110","httpgd","C:/Users/pottj/R/packages","1.3.1",NA,"R (>= 3.2.0)","later (>= 1.1.0), systemfonts (>= 1.0.0)","cpp11 (>= 0.2.4), BH (>= 1.75.0), later, systemfonts","testthat, xml2 (>= 1.0.0), fontquiver (>= 0.2.0), knitr,
+rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"111","httpuv","C:/Users/pottj/R/packages","1.6.9",NA,"R (>= 2.15.1)","Rcpp (>= 1.0.7), utils, R6, promises, later (>= 0.8.0)","Rcpp, later","testthat, callr, curl, websocket",NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"112","httr","C:/Users/pottj/R/packages","1.4.5",NA,"R (>= 3.5)","curl (>= 3.0.0), jsonlite, mime, openssl (>= 0.8), R6",NA,"covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat
+(>= 0.8.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"113","httr2","C:/Users/pottj/R/packages","0.2.2",NA,"R (>= 3.4)","cli (>= 3.0.0), curl, glue, magrittr, openssl, R6, rappdirs,
+rlang (>= 1.0.0), withr",NA,"askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite,
+knitr, purrr, rmarkdown, testthat (>= 3.0.0), tibble, webfakes,
+xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"114","icd","C:/Users/pottj/R/packages","4.0.9",NA,"R (>= 3.4)","methods, Rcpp (>= 0.12.3)","Rcpp (>= 0.12.3), RcppEigen","graphics, httr, jsonlite, knitr, magrittr, nhds, readxl,
+rmarkdown (>= 1.11), RODBC, roxygen2 (>= 5.0.0), stats,
+testthat (>= 0.11.1), utils, xml2",NA,"GPL-3",NA,NA,NA,NA,"yes","4.1.1","CRAN"
+"115","ids","C:/Users/pottj/R/packages","1.0.1",NA,NA,"openssl, uuid",NA,"knitr, rcorpora, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"116","igraph","C:/Users/pottj/R/packages","1.4.2",NA,"R (>= 3.0.2), methods","graphics, grDevices, magrittr, Matrix, pkgconfig (>= 2.0.0),
+rlang, stats, utils","cpp11 (>= 0.2.0)","ape (>= 5.7-0.1), decor, digest, graph, igraphdata, rgl,
+scales, stats4, tcltk, testthat, withr, vdiffr, knitr,
+rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"117","infer","C:/Users/pottj/R/packages","1.0.4",NA,"R (>= 3.5.0)","dplyr (>= 0.7.0), ggplot2, glue (>= 1.3.0), grDevices,
+magrittr, methods, purrr, rlang (>= 0.2.0), tibble, broom,
+tidyr, generics, patchwork",NA,"covr, devtools (>= 1.12.0), fs, knitr, nycflights13,
+rmarkdown, stringr, testthat, vdiffr (>= 1.0.0), parsnip",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"118","ini","C:/Users/pottj/R/packages","0.3.1",NA,NA,NA,NA,"testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"119","insight","C:/Users/pottj/R/packages","0.19.1",NA,"R (>= 3.5)","methods, stats, utils",NA,"AER, afex, aod, BayesFactor, bayestestR, bbmle, bdsmatrix,
+betareg, bife, biglm, blavaan, blme, boot, brms, censReg, cgam,
+clubSandwich, coxme, cplm, crch, datawizard, effectsize,
+emmeans, epiR, estimatr, feisr, fixest, fungible, gam, gamlss,
+gamm4, gbm, gee, geepack, geoR, GLMMadaptive, glmmTMB, gmnl,
+gt, httr, ivreg, JM, knitr, lavaan, lavaSearch2, lfe, lme4,
+lmerTest, lmtest, logistf, logitr, MASS, marginaleffects,
+Matrix, mclogit, mclust, MCMCglmm, merTools, metaBMA, metafor,
+metaplus, mgcv, mice, mlogit, mhurdle, mmrm, multgee, nlme,
+nnet, nonnest2, ordinal, panelr, parameters, parsnip, pbkrtest,
+performance, plm, poorman, pscl, psych, quantreg, rmarkdown,
+rms, robustbase, robustlmm, rstanarm (>= 2.21.1), rstantools,
+rstudioapi, sandwich, speedglm, splines, statmod, survey,
+survival, testthat, truncreg, tweedie, TMB, VGAM",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"120","ipred","C:/Users/pottj/R/packages","0.9-14",NA,"R (>= 2.10)","rpart (>= 3.1-8), MASS, survival, nnet, class, prodlim",NA,"mvtnorm, mlbench, TH.data, randomForest, party",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"121","isoband","C:/Users/pottj/R/packages","0.2.7",NA,NA,"grid, utils",NA,"covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
+testthat, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"122","iterators","C:/Users/pottj/R/packages","1.0.14",NA,"R (>= 2.5.0), utils",NA,NA,"RUnit, foreach",NA,"Apache License (== 2.0)",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"123","janitor","C:/Users/pottj/R/packages","2.2.0",NA,"R (>= 3.1.2)","dplyr (>= 1.0.0), hms, lifecycle, lubridate, magrittr, purrr,
+rlang, stringi, stringr, snakecase (>= 0.9.2), tidyselect (>=
+1.0.0), tidyr (>= 0.7.0)",NA,"dbplyr, knitr, rmarkdown, RSQLite, sf, testthat (>= 3.0.0),
+tibble, tidygraph",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"124","jose","C:/Users/pottj/R/packages","1.2.0",NA,"openssl (>= 1.2.1)","jsonlite",NA,"spelling, testthat, knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"125","jquerylib","C:/Users/pottj/R/packages","0.1.4",NA,NA,"htmltools",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"126","jsonlite","C:/Users/pottj/R/packages","1.8.4",NA,"methods",NA,NA,"httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"127","juicyjuice","C:/Users/pottj/R/packages","0.1.0",NA,NA,"V8 (>= 4.2.0)",NA,"testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"128","kableExtra","C:/Users/pottj/R/packages","1.3.4",NA,"R (>= 3.1.0)","knitr (>= 1.16), magrittr, stringr (>= 1.0), xml2 (>= 1.1.1),
+rvest, rmarkdown (>= 1.6.0), scales, viridisLite, stats,
+grDevices, htmltools, rstudioapi, glue, tools, webshot, digest,
+graphics, svglite",NA,"testthat, magick, formattable, sparkline",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"129","keyring","C:/Users/pottj/R/packages","1.3.1",NA,NA,"assertthat, askpass, openssl, R6, utils, sodium, yaml,
+filelock, rappdirs, tools",NA,"callr, covr, mockery, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"130","keyringr","C:/Users/pottj/R/packages","0.4.0",NA,NA,"stringr",NA,"knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"131","knitr","C:/Users/pottj/R/packages","1.42",NA,"R (>= 3.3.0)","evaluate (>= 0.15), highr, methods, yaml (>= 2.1.19), xfun (>=
+0.34), tools",NA,"markdown (>= 1.3), formatR, testit, digest, rgl (>=
+0.95.1201), codetools, rmarkdown, htmlwidgets (>= 0.7),
+webshot, tikzDevice (>= 0.10), tinytex, reticulate (>= 1.4),
+JuliaCall (>= 0.11.1), magick, png, jpeg, gifski, xml2 (>=
+1.2.0), httr, DBI (>= 0.4-1), showtext, tibble, sass, bslib,
+ragg, gridSVG, styler (>= 1.2.0), targets (>= 0.6.0)",NA,"GPL",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"132","labeling","C:/Users/pottj/R/packages","0.4.2",NA,NA,"stats, graphics",NA,NA,NA,"MIT + file LICENSE | Unlimited",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"133","labelled","C:/Users/pottj/R/packages","2.11.0",NA,"R (>= 3.0)","haven (>= 2.4.1), dplyr (>= 1.0.0), lifecycle, rlang, vctrs,
+stringr, tidyr",NA,"testthat, knitr, rmarkdown, questionr, snakecase, utf8, covr,
+spelling","memisc","GPL (>= 3)",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"134","labelVector","C:/Users/pottj/R/packages","0.1.2",NA,"R (>= 2.0.0)",NA,NA,"Hmisc, knitr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.2","CRAN"
+"135","languageserver","C:/Users/pottj/R/packages","0.3.15",NA,"R (>= 3.4.0)","callr (>= 3.0.0), collections (>= 0.3.0), fs (>= 1.3.1),
+jsonlite (>= 1.6), lintr (>= 3.0.0), parallel, R6 (>= 2.4.1),
+roxygen2 (>= 7.0.0), stringi (>= 1.1.7), styler (>= 1.5.1),
+tools, utils, xml2 (>= 1.2.2), xmlparsedata (>= 1.0.3)",NA,"covr (>= 3.4.0), magrittr (>= 1.5), mockery (>= 0.4.2),
+processx (>= 3.4.1), purrr (>= 0.3.3), testthat (>= 2.1.0),
+withr (>= 2.3.0), rmarkdown (>= 2.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"136","later","C:/Users/pottj/R/packages","1.3.0",NA,NA,"Rcpp (>= 0.12.9), rlang","Rcpp","knitr, rmarkdown, testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.1.1","CRAN"
+"137","lava","C:/Users/pottj/R/packages","1.7.2.1",NA,"R (>= 3.0)","future.apply, grDevices, graphics, methods, numDeriv,
+progressr, stats, survival, SQUAREM, utils",NA,"KernSmooth, Matrix, Rgraphviz, data.table, ellipse, fields,
+geepack, graph, knitr, bookdown, rmarkdown, igraph (>= 0.6),
+lavaSearch2, lme4, mets (>= 1.1), nlme, optimx, polycor,
+quantreg, rgl, R.rsp (>= 0.40), targeted (>= 0.2), testthat (>=
+0.11), visNetwork, zoo",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"138","lazyeval","C:/Users/pottj/R/packages","0.2.2",NA,"R (>= 3.1.0)",NA,NA,"knitr, rmarkdown (>= 0.2.65), testthat, covr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.0","CRAN"
+"139","lhs","C:/Users/pottj/R/packages","1.1.6",NA,"R (>= 3.4.0)","Rcpp","Rcpp","testthat, assertthat, DoE.base, knitr, rmarkdown",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"140","lifecycle","C:/Users/pottj/R/packages","1.0.3",NA,"R (>= 3.4)","cli (>= 3.4.0), glue, rlang (>= 1.0.6)",NA,"covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),
+tibble, tidyverse, tools, vctrs, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"141","lintr","C:/Users/pottj/R/packages","3.0.2",NA,"R (>= 3.2)","backports, codetools, crayon, cyclocomp, digest, glue,
+jsonlite, knitr, rex, stats, utils, xml2 (>= 1.0.0),
+xmlparsedata (>= 1.0.5)",NA,"covr, httr (>= 1.2.1), mockery, patrick, pkgdown, rmarkdown,
+rstudioapi (>= 0.2), testthat (>= 3.0.0), tibble, withr (>=
+2.5.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"142","listenv","C:/Users/pottj/R/packages","0.9.0",NA,"R (>= 3.1.2)",NA,NA,"R.utils, R.rsp, markdown",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"143","lmtest","C:/Users/pottj/R/packages","0.9-40",NA,"R (>= 3.0.0), stats, zoo","graphics",NA,"car, strucchange, sandwich, dynlm, stats4, survival, AER",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.1","CRAN"
+"144","lubridate","C:/Users/pottj/R/packages","1.9.2",NA,"methods, R (>= 3.2)","generics, timechange (>= 0.1.1)",NA,"covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)","chron, data.table, timeDate, tis, zoo","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"145","magrittr","C:/Users/pottj/R/packages","2.0.3",NA,"R (>= 3.4.0)",NA,NA,"covr, knitr, rlang, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.1.3","CRAN"
+"146","markdown","C:/Users/pottj/R/packages","1.6",NA,"R (>= 2.11.1)","utils, commonmark (>= 1.9.0), xfun (>= 0.38)",NA,"knitr, rmarkdown (>= 2.18), yaml, RCurl",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"147","MASS","C:/Users/pottj/R/packages","7.3-59","recommended","R (>= 4.2.0), grDevices, graphics, stats, utils","methods",NA,"lattice, nlme, nnet, survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"148","Matrix","C:/Users/pottj/R/packages","1.5-4","recommended","R (>= 3.5.0), methods","graphics, grid, lattice, stats, utils",NA,"expm, MASS","MatrixModels, graph, SparseM, sfsmisc, igraph, maptools, sp,
+spdep","GPL (>= 2) | file LICENCE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"149","memoise","C:/Users/pottj/R/packages","2.0.1",NA,NA,"rlang (>= 0.4.10), cachem",NA,"digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr,
+testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.2","CRAN"
+"150","Microsoft365R","C:/Users/pottj/R/packages","2.3.4",NA,"R (>= 3.3)","AzureAuth, AzureGraph (>= 1.3.1), utils, curl, httr, jsonlite,
+R6, vctrs, mime",NA,"openssl, knitr, rmarkdown, testthat, blastula, emayili",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.2","https://github.com/Azure/Microsoft365R"
+"151","mime","C:/Users/pottj/R/packages","0.12",NA,NA,"tools",NA,NA,NA,"GPL",NA,NA,NA,NA,"yes","4.1.1","CRAN"
+"152","miniUI","C:/Users/pottj/R/packages","0.1.1.1",NA,NA,"shiny (>= 0.13), htmltools (>= 0.3), utils",NA,NA,NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"153","modelbased","C:/Users/pottj/R/packages","0.8.6",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), datawizard (>= 0.6.2), effectsize (>=
+0.8.1), insight (>= 0.18.5), parameters (>= 0.19.0),
+performance (>= 0.10.0), graphics, stats, utils",NA,"brms, correlation, emmeans (>= 1.8.3), gamm4, gganimate,
+ggplot2, glmmTMB, knitr, lme4, logspline, marginaleffects,
+mgcv, patchwork, poorman, report, rmarkdown, rstanarm, rtdists,
+see (>= 0.7.0), testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"154","modeldata","C:/Users/pottj/R/packages","1.1.0",NA,"R (>= 3.4)","dplyr, MASS, purrr, rlang, tibble",NA,"covr, testthat (>= 3.0.0), ggplot2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"155","modelenv","C:/Users/pottj/R/packages","0.1.1",NA,NA,"glue, rlang, tibble, vctrs",NA,"covr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"156","modelr","C:/Users/pottj/R/packages","0.1.11",NA,"R (>= 3.2)","broom, magrittr, purrr (>= 0.2.2), rlang (>= 1.0.6), tibble,
+tidyr (>= 0.8.0), tidyselect, vctrs",NA,"compiler, covr, ggplot2, testthat (>= 3.0.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"157","munsell","C:/Users/pottj/R/packages","0.5.0",NA,NA,"colorspace, methods",NA,"ggplot2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"158","nlme","C:/Users/pottj/R/packages","3.1-162","recommended","R (>= 3.5.0)","graphics, stats, utils, lattice",NA,"Hmisc, MASS, SASmixed",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"159","nnet","C:/Users/pottj/R/packages","7.3-18","recommended","R (>= 3.0.0), stats, utils",NA,NA,"MASS",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"160","numDeriv","C:/Users/pottj/R/packages","2016.8-1.1",NA,"R (>= 2.11.1)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.2.0","CRAN"
+"161","odbc","C:/Users/pottj/R/packages","1.3.4",NA,"R (>= 3.2.0)","bit64, blob (>= 1.2.0), DBI (>= 1.0.0), hms, methods, Rcpp (>=
+0.12.11), rlang (>= 0.2.0)","Rcpp","covr, DBItest, magrittr, RSQLite, testthat, tibble",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"162","openssl","C:/Users/pottj/R/packages","2.0.6",NA,NA,"askpass",NA,"curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
+jsonlite, jose, sodium",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"163","pacman","C:/Users/pottj/R/packages","0.5.1",NA,"R (>= 3.5.0)","remotes, methods, stats, utils",NA,"BiocManager, knitr, lattice, testthat (>= 0.9.0), XML",NA,"GPL-2",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"164","pak","C:/Users/pottj/R/packages","0.5.0",NA,"R (>= 3.2)","tools, utils",NA,"callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc
+(>= 1.4.1), digest, distro, filelock (>= 1.0.2), gitcreds, glue
+(>= 1.6.2), mockery, pingr, jsonlite (>= 1.8.0), pkgcache (>=
+2.0.4), pkgdepends (>= 0.4.0), pkgsearch (>= 3.1.0),
+prettyunits, processx (>= 3.8.1), ps (>= 1.6.0), rprojroot (>=
+2.0.2), rstudioapi, testthat, withr",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"165","paletteer","C:/Users/pottj/R/packages","1.5.0",NA,"R (>= 2.10)","prismatic, rematch2, rlang, rstudioapi",NA,"covr, ggplot2 (>= 3.3.0), ggthemes (>= 4.0.0), harrypotter
+(>= 2.1.0), knitr, oompaBase, palr, pals, rmarkdown, scico,
+testthat (>= 2.1.0), vdiffr, viridisLite",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"166","parallelly","C:/Users/pottj/R/packages","1.35.0",NA,NA,"parallel, tools, utils",NA,NA,NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"167","parameters","C:/Users/pottj/R/packages","0.21.0",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), datawizard (>= 0.7.0), insight (>=
+0.19.1), graphics, methods, stats, utils",NA,"AER, afex, aod, BayesFactor, BayesFM, bbmle, betareg, BH,
+biglm, blme, boot, brglm2, brms, broom, cAIC4, car, carData,
+cgam, ClassDiscovery, clubSandwich, cluster, coda, cplm,
+dbscan, domir (>= 0.2.0), drc, DRR, effectsize (>= 0.8.2),
+EGAnet (>= 0.7), emmeans (>= 1.7.0), estimatr, factoextra,
+FactoMineR, fastICA, fixest, fpc, gam, gamlss, gee, geepack,
+ggeffects (>= 1.2.0), ggplot2, GLMMadaptive, glmmTMB,
+GPArotation, gt, haven, httr, Hmisc, ivprobit, ivreg, knitr,
+lavaan, lfe, lm.beta, lme4, lmerTest, lmtest, logspline, lqmm,
+M3C, marginaleffects (>= 0.10.0), MASS, Matrix, mclogit,
+mclust, MCMCglmm, mediation, merDeriv, metaBMA, metafor, mfx,
+mgcv, mice, mmrm, multcomp, MuMIn, NbClust, nFactors, nlme,
+nnet, openxlsx, ordinal, panelr, pbkrtest, PCDimension,
+performance (>= 0.10.1), plm, PMCMRplus, poorman, posterior,
+PROreg, pscl, psych, pvclust, quantreg, randomForest,
+rmarkdown, rms, rstanarm, sandwich, see (>= 0.7.5), sparsepca,
+survey, survival, testthat, tidyselect, TMB, truncreg, VGAM,
+withr, WRS2",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"168","parsedate","C:/Users/pottj/R/packages","1.3.1",NA,NA,NA,NA,"covr, testthat, withr",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"169","parsnip","C:/Users/pottj/R/packages","1.1.0",NA,"R (>= 3.5)","cli, dplyr (>= 1.1.0), generics (>= 0.1.2), ggplot2, globals,
+glue, hardhat (>= 1.1.0), lifecycle, magrittr, pillar,
+prettyunits, purrr (>= 1.0.0), rlang (>= 0.3.1), stats, tibble
+(>= 2.1.1), tidyr (>= 1.3.0), utils, vctrs (>= 0.6.0), withr",NA,"C50, covr, dials (>= 1.1.0), earth, ggrepel, keras, kernlab,
+kknn, knitr, LiblineaR, MASS, Matrix, mgcv, modeldata, nlme,
+prodlim, ranger (>= 0.12.0), remotes, rmarkdown, rpart,
+sparklyr (>= 1.0.0), survival, tensorflow, testthat (>= 3.0.0),
+xgboost (>= 1.5.0.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"170","patchwork","C:/Users/pottj/R/packages","1.1.2",NA,NA,"ggplot2 (>= 3.0.0), gtable, grid, stats, grDevices, utils,
+graphics",NA,"knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>=
+2.1.0), vdiffr, covr, png",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"171","performance","C:/Users/pottj/R/packages","0.10.3",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), insight (>= 0.19.1), datawizard (>=
+0.7.0), methods, stats, utils",NA,"AER, afex, BayesFactor, bayesplot, betareg, bigutilsr,
+blavaan, boot, brms, car, CompQuadForm, correlation, cplm,
+dbscan, estimatr, fixest, forecast, gamm4, ggplot2, glmmTMB,
+graphics, Hmisc, httr, ICS, ICSOutlier, ISLR, ivreg, lavaan,
+lme4, lmtest, loo, MASS, Matrix, mclogit, mclust, metadat,
+metafor, mgcv, mlogit, multimode, nlme, nonnest2, ordinal,
+parallel, parameters (>= 0.20.3), patchwork, pscl, psych,
+randomForest, rmarkdown, rstanarm, rstantools, sandwich, see
+(>= 0.7.5), survey, survival, testthat, tweedie, VGAM, withr",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"172","pillar","C:/Users/pottj/R/packages","1.9.0",NA,NA,"cli (>= 2.3.0), fansi, glue, lifecycle, rlang (>= 1.0.2), utf8
+(>= 1.1.0), utils, vctrs (>= 0.5.0)",NA,"bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2,
+knitr, lubridate, nanotime, nycflights13, palmerpenguins,
+rmarkdown, scales, stringi, survival, testthat (>= 3.1.1),
+tibble, units (>= 0.7.2), vdiffr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"173","pkgbuild","C:/Users/pottj/R/packages","1.4.0",NA,"R (>= 3.4)","callr (>= 3.2.0), cli (>= 3.4.0), crayon, desc, prettyunits,
+processx, R6, rprojroot, withr (>= 2.3.0)",NA,"covr, cpp11, knitr, mockery, Rcpp, rmarkdown, testthat (>=
+3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"174","pkgconfig","C:/Users/pottj/R/packages","2.0.3",NA,NA,"utils",NA,"covr, testthat, disposables (>= 1.0.3)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"175","pkgdown","C:/Users/pottj/R/packages","2.0.7",NA,"R (>= 3.1.0)","bslib (>= 0.3.1), callr (>= 3.7.3), cli, desc, digest, downlit
+(>= 0.4.0), fs (>= 1.4.0), httr (>= 1.4.2), jsonlite, magrittr,
+memoise, purrr, ragg, rlang (>= 1.0.0), rmarkdown (>=
+1.1.9007), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1),
+yaml",NA,"covr, diffviewer, evaluate, htmltools, htmlwidgets, knitr,
+lifecycle, methods, openssl, pkgload (>= 1.0.2), rsconnect,
+rstudioapi, rticles, sass, testthat (>= 3.1.3), tools",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"176","pkgload","C:/Users/pottj/R/packages","1.3.2",NA,"R (>= 3.4.0)","cli (>= 3.3.0), crayon, desc, fs, glue, methods, rlang (>=
+1.0.3), rprojroot, utils, withr (>= 2.4.3)",NA,"bitops, covr, mathjaxr, mockr, pak, pkgbuild, Rcpp, remotes,
+rstudioapi, testthat (>= 3.1.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"177","plyr","C:/Users/pottj/R/packages","1.8.8",NA,"R (>= 3.1.0)","Rcpp (>= 0.11.0)","Rcpp","abind, covr, doParallel, foreach, iterators, itertools,
+tcltk, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"178","png","C:/Users/pottj/R/packages","0.1-8",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2","CRAN"
+"179","pool","C:/Users/pottj/R/packages","1.0.1",NA,"methods, R (>= 3.0.0)","DBI, later (>= 1.0.0), R6, rlang (>= 1.0.0), withr",NA,"covr, dbplyr (>= 2.0.0), dplyr, knitr, rmarkdown, RMySQL,
+RSQLite, shiny, testthat (>= 3.0.0), tibble",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"180","praise","C:/Users/pottj/R/packages","1.0.0",NA,NA,NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"181","prettyunits","C:/Users/pottj/R/packages","1.1.1",NA,NA,NA,NA,"codetools, covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"182","prismatic","C:/Users/pottj/R/packages","1.1.1",NA,"R (>= 3.2)","graphics, farver (>= 2.0.1), grDevices",NA,"covr, crayon, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"183","pROC","C:/Users/pottj/R/packages","1.18.0",NA,"R (>= 2.14)","methods, plyr, Rcpp (>= 0.11.1)","Rcpp","microbenchmark, tcltk, MASS, logcondens, doParallel,
+testthat, vdiffr, ggplot2",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.2.1","CRAN"
+"184","processx","C:/Users/pottj/R/packages","3.8.1",NA,"R (>= 3.4.0)","ps (>= 1.2.0), R6, utils",NA,"callr (>= 3.7.3), cli (>= 3.3.0), codetools, covr, curl,
+debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0),
+webfakes, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"185","prodlim","C:/Users/pottj/R/packages","2023.03.31",NA,"R (>= 2.9.0)","Rcpp (>= 0.11.5), stats, data.table, grDevices, graphics,
+diagram, survival, KernSmooth, lava","Rcpp",NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"186","profvis","C:/Users/pottj/R/packages","0.3.7",NA,"R (>= 3.0)","htmlwidgets (>= 0.3.2), stringr",NA,"knitr, ggplot2, rmarkdown, testthat, devtools, shiny,
+htmltools",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"187","progress","C:/Users/pottj/R/packages","1.2.2",NA,NA,"hms, prettyunits, R6, crayon",NA,"Rcpp, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"188","progressr","C:/Users/pottj/R/packages","0.13.0",NA,"R (>= 3.5.0)","digest, utils",NA,"graphics, tcltk, beepr, cli, crayon, pbmcapply, progress,
+purrr, foreach, plyr, doFuture, future, future.apply, furrr,
+RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"189","promises","C:/Users/pottj/R/packages","1.2.0.1",NA,NA,"R6, Rcpp, later, rlang, stats, magrittr","later, Rcpp","testthat, future (>= 1.21.0), fastmap (>= 1.1.0), purrr,
+knitr, rmarkdown, vembedr, spelling",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.1.1","CRAN"
+"190","ps","C:/Users/pottj/R/packages","1.7.5",NA,"R (>= 3.4)","utils",NA,"callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6,
+rlang, testthat (>= 3.0.0), webfakes",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"191","purrr","C:/Users/pottj/R/packages","1.0.1",NA,"R (>= 3.4.0)","cli (>= 3.4.0), lifecycle (>= 1.0.3), magrittr (>= 1.5.0),
+rlang (>= 0.4.10), vctrs (>= 0.5.0)","cli","covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown,
+testthat (>= 3.0.0), tibble, tidyselect",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"192","R.cache","C:/Users/pottj/R/packages","0.16.0",NA,"R (>= 2.14.0)","utils, R.methodsS3 (>= 1.8.1), R.oo (>= 1.24.0), R.utils (>=
+2.10.1), digest (>= 0.6.13)",NA,NA,NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"193","R.methodsS3","C:/Users/pottj/R/packages","1.8.2",NA,"R (>= 2.13.0)","utils",NA,"codetools",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"194","R.oo","C:/Users/pottj/R/packages","1.25.0",NA,"R (>= 2.13.0), R.methodsS3 (>= 1.8.1)","methods, utils",NA,"tools",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"195","R.utils","C:/Users/pottj/R/packages","2.12.2",NA,"R (>= 2.14.0), R.oo","methods, utils, tools, R.methodsS3",NA,"datasets, digest (>= 0.6.10)",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"196","r2d3","C:/Users/pottj/R/packages","0.2.6",NA,"R (>= 3.1.2)","htmlwidgets (>= 1.2), htmltools, jsonlite, rstudioapi",NA,"knitr, rmarkdown, R6, shiny, shinytest, testthat, webshot",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"197","R6","C:/Users/pottj/R/packages","2.5.1",NA,"R (>= 3.0)",NA,NA,"testthat, pryr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"198","ragg","C:/Users/pottj/R/packages","1.2.5",NA,NA,"systemfonts (>= 1.0.3), textshaping (>= 0.3.0)","systemfonts, textshaping","covr, graphics, grid, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"199","rappdirs","C:/Users/pottj/R/packages","0.3.3",NA,"R (>= 3.2)",NA,NA,"roxygen2, testthat (>= 3.0.0), covr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.1.1","CRAN"
+"200","rcmdcheck","C:/Users/pottj/R/packages","1.4.0",NA,NA,"callr (>= 3.1.1.9000), cli (>= 3.0.0), curl, desc (>= 1.2.0),
+digest, pkgbuild, prettyunits, R6, rprojroot, sessioninfo (>=
+1.1.1), utils, withr, xopen",NA,"covr, knitr, mockery, processx, ps, rmarkdown, svglite,
+testthat, webfakes",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"201","RColorBrewer","C:/Users/pottj/R/packages","1.1-3",NA,"R (>= 2.0.0)",NA,NA,NA,NA,"Apache License 2.0",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"202","Rcpp","C:/Users/pottj/R/packages","1.0.10",NA,NA,"methods, utils",NA,"tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"203","RcppEigen","C:/Users/pottj/R/packages","0.3.3.9.3",NA,"R (>= 3.6.0)","Matrix (>= 1.1-0), Rcpp (>= 0.11.0), stats, utils","Rcpp","inline, tinytest, pkgKitten, microbenchmark",NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"204","RcppTOML","C:/Users/pottj/R/packages","0.2.2",NA,"R (>= 3.3.0)","Rcpp (>= 0.11.5)","Rcpp","tinytest",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"205","RDCOMClient","C:/Users/pottj/R/packages","0.94-0",NA,NA,NA,NA,NA,NA,"GPL2",NA,NA,NA,NA,"yes","4.1.2","https://github.com/omegahat/RDCOMClient"
+"206","Rdiagnosislist","C:/Users/pottj/R/packages","1.2",NA,"R (>= 3.5.0)","data.table, bit64, methods",NA,"knitr, rmarkdown, testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"207","reactable","C:/Users/pottj/R/packages","0.4.4",NA,"R (>= 3.1)","digest, htmltools (>= 0.5.2), htmlwidgets (>= 1.5.3),
+jsonlite, reactR",NA,"covr, crosstalk, dplyr, fontawesome, knitr, leaflet, MASS,
+rmarkdown, shiny, sparkline, testthat, tippy, V8",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"208","reactR","C:/Users/pottj/R/packages","0.4.4",NA,NA,"htmltools",NA,"htmlwidgets (>= 1.5.3), rmarkdown, shiny, V8, knitr, usethis,
+jsonlite",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"209","readr","C:/Users/pottj/R/packages","2.1.4",NA,"R (>= 3.5)","cli (>= 3.2.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>=
+0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.6.0)","cpp11, tzdb (>= 0.1.1)","covr, curl, datasets, knitr, rmarkdown, spelling, stringi,
+testthat (>= 3.1.2), tzdb (>= 0.1.1), waldo, withr, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"210","readxl","C:/Users/pottj/R/packages","1.4.2",NA,"R (>= 3.5)","cellranger, tibble (>= 2.0.1), utils","cpp11 (>= 0.4.0), progress","covr, knitr, rmarkdown, testthat (>= 3.1.6), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"211","recipes","C:/Users/pottj/R/packages","1.0.6",NA,"dplyr (>= 1.1.0), R (>= 3.4)","cli, clock (>= 0.6.1), ellipsis, generics (>= 0.1.2), glue,
+gower, hardhat (>= 1.3.0), ipred (>= 0.9-12), lifecycle (>=
+1.0.3), lubridate (>= 1.8.0), magrittr, Matrix, purrr (>=
+1.0.0), rlang (>= 1.0.3), stats, tibble, tidyr (>= 1.0.0),
+tidyselect (>= 1.2.0), timeDate, utils, vctrs (>= 0.5.0), withr",NA,"covr, ddalpha, dials (>= 1.2.0), ggplot2, igraph, kernlab,
+knitr, modeldata (>= 0.1.1), parsnip (>= 0.1.7), RANN,
+RcppRoll, rmarkdown, rpart, rsample, RSpectra, splines2,
+testthat (>= 3.0.0), workflows, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"212","redcapAPI","C:/Users/pottj/R/packages","2.5.0",NA,"R (>= 3.0.0)","checkmate, chron, httr, labelVector, lubridate",NA,"testthat (>= 3.0.0), getPass, keyring, Hmisc",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"213","rematch","C:/Users/pottj/R/packages","1.0.1",NA,NA,NA,NA,"covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"214","rematch2","C:/Users/pottj/R/packages","2.1.2",NA,NA,"tibble",NA,"covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"215","remotes","C:/Users/pottj/R/packages","2.4.2",NA,"R (>= 3.0.0)","methods, stats, tools, utils",NA,"brew, callr, codetools, curl, covr, git2r (>= 0.23.0), knitr,
+mockery, pkgbuild (>= 1.0.1), pingr, rmarkdown, rprojroot,
+testthat, webfakes, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.2","CRAN"
+"216","renv","C:/Users/pottj/R/packages","0.17.3",NA,NA,"utils",NA,"BiocManager, cli, covr, devtools, jsonlite, knitr, miniUI,
+packrat, pak, R6, remotes, reticulate, rmarkdown, rstudioapi,
+shiny, testthat, uuid, yaml",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"217","report","C:/Users/pottj/R/packages","0.5.7",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), effectsize (> 0.8.2), insight (>=
+0.19.1), parameters (>= 0.20.0), performance (>= 0.9.2),
+datawizard (>= 0.6.5), stats, tools, utils",NA,"brms, ivreg, knitr, lavaan, lme4, dplyr, rmarkdown, rstanarm,
+survival, testthat",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"218","reportROC","C:/Users/pottj/R/packages","3.6",NA,NA,"pROC, vcd, methods",NA,NA,NA,"GPL-3",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"219","reprex","C:/Users/pottj/R/packages","2.0.2",NA,"R (>= 3.4)","callr (>= 3.6.0), cli (>= 3.2.0), clipr (>= 0.4.0), fs, glue,
+knitr (>= 1.23), lifecycle, rlang (>= 1.0.0), rmarkdown,
+rstudioapi, utils, withr (>= 2.3.0)",NA,"covr, fortunes, miniUI, mockr, rprojroot, sessioninfo, shiny,
+spelling, styler (>= 1.2.0), testthat (>= 3.0.2)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"220","reticulate","C:/Users/pottj/R/packages","1.28",NA,"R (>= 3.0)","Matrix, Rcpp (>= 0.12.7), RcppTOML, graphics, here, jsonlite,
+methods, png, rappdirs, utils, withr","Rcpp","callr, knitr, rlang, rmarkdown, testthat",NA,"Apache License 2.0",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"221","rex","C:/Users/pottj/R/packages","1.2.1",NA,NA,"lazyeval",NA,"covr, dplyr, ggplot2, Hmisc, knitr, magrittr, rmarkdown,
+roxygen2, rvest, stringr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.0","CRAN"
+"222","rhub","C:/Users/pottj/R/packages","1.1.2",NA,NA,"assertthat, callr, cli (>= 1.1.0), crayon, desc, digest, httr,
+jsonlite, parsedate, pillar, prettyunits, processx, R6,
+rappdirs, rcmdcheck (>= 1.2.1), rematch, tibble, utils, uuid,
+whoami, withr",NA,"covr, testthat, knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"223","rJava","C:/Users/pottj/R/packages","1.0-6",NA,"R (>= 3.6.0), methods",NA,NA,NA,NA,"LGPL-2.1",NA,NA,NA,NA,"yes","4.2.0","CRAN"
+"224","rlang","C:/Users/pottj/R/packages","1.1.0",NA,"R (>= 3.5.0)","utils",NA,"cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr,
+methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble,
+usethis, vctrs (>= 0.2.3), withr","winch","MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"225","rmarkdown","C:/Users/pottj/R/packages","2.21",NA,"R (>= 3.0)","bslib (>= 0.2.5.1), evaluate (>= 0.13), fontawesome (>=
+0.5.0), htmltools (>= 0.5.1), jquerylib, jsonlite, knitr (>=
+1.22), methods, stringr (>= 1.2.0), tinytex (>= 0.31), tools,
+utils, xfun (>= 0.36), yaml (>= 2.1.19)",NA,"digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex
+(>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>=
+3.0.3), tibble, vctrs, withr (>= 2.4.2)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"226","RODBC","C:/Users/pottj/R/packages","1.3-20",NA,"R (>= 4.0.0)","stats",NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2","CRAN"
+"227","roxygen2","C:/Users/pottj/R/packages","7.2.3",NA,"R (>= 3.3)","brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr,
+methods, pkgload (>= 1.0.2), purrr (>= 0.3.3), R6 (>= 2.1.2),
+rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr,
+xml2","cpp11","covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>=
+3.1.2), yaml",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"228","rprojroot","C:/Users/pottj/R/packages","2.0.3",NA,"R (>= 3.0.0)",NA,NA,"covr, knitr, lifecycle, mockr, rmarkdown, testthat (>=
+3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"229","rsample","C:/Users/pottj/R/packages","1.1.1",NA,"R (>= 3.4)","dplyr (>= 1.0.0), furrr, generics, glue, methods, pillar,
+purrr, rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr,
+tidyselect, vctrs (>= 0.5.0)",NA,"broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4),
+rmarkdown, stats, testthat (>= 3.0.0), utils, whisker, withr,
+xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"230","Rserve","C:/Users/pottj/R/packages","1.8-11",NA,"R (>= 1.5.0)",NA,NA,"RSclient",NA,"GPL-2 | file LICENSE",NA,NA,NA,NA,"yes","4.2.2","CRAN"
+"231","rstudioapi","C:/Users/pottj/R/packages","0.14",NA,NA,NA,NA,"testthat, knitr, rmarkdown, clipr, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"232","Rttf2pt1","C:/Users/pottj/R/packages","1.3.12",NA,"R (>= 2.15)",NA,NA,NA,NA,"file LICENSE","yes",NA,NA,NA,"yes","4.2.2","CRAN"
+"233","rversions","C:/Users/pottj/R/packages","2.1.2",NA,NA,"curl, utils, xml2 (>= 1.0.0)",NA,"covr, mockery, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"234","rvest","C:/Users/pottj/R/packages","1.0.3",NA,"R (>= 3.2)","glue, cli, httr (>= 0.5), lifecycle (>= 1.0.0), magrittr,
+rlang (>= 1.0.0), selectr, tibble, xml2 (>= 1.3), withr",NA,"covr, knitr, readr, repurrrsive, rmarkdown, spelling, stringi
+(>= 0.3.1), testthat (>= 3.0.2), webfakes",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"235","sass","C:/Users/pottj/R/packages","0.4.5",NA,NA,"fs, rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs",NA,"testthat, knitr, rmarkdown, withr, shiny, curl",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"236","scales","C:/Users/pottj/R/packages","1.2.1",NA,"R (>= 3.2)","farver (>= 2.0.3), labeling, lifecycle, munsell (>= 0.5), R6,
+RColorBrewer, rlang (>= 1.0.0), viridisLite",NA,"bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), stringi,
+testthat (>= 3.0.0), waldo (>= 0.4.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"237","see","C:/Users/pottj/R/packages","0.7.5",NA,"graphics, grDevices, R (>= 3.6), stats","bayestestR (>= 0.13.0), correlation (>= 0.8.3), datawizard (>=
+0.7.0), effectsize (>= 0.8.3), ggplot2 (>= 3.4.1), insight (>=
+0.19.1), modelbased (>= 0.8.5), parameters (>= 0.20.2),
+performance (>= 0.10.1)",NA,"brms, curl, emmeans, factoextra, ggdist, ggraph, ggrepel,
+ggridges, ggside, glmmTMB, grid, httr, lavaan, lme4, logspline,
+MASS, mclust, mgcv, metafor, NbClust, nFactors, patchwork,
+poorman, psych, qqplotr, randomForest, rlang, rmarkdown,
+rstanarm, scales (>= 1.2.1), splines, testthat (>= 3.1.7),
+tidygraph, vdiffr (>= 1.0.5)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"238","selectr","C:/Users/pottj/R/packages","0.4-2",NA,"R (>= 3.0)","methods, stringr, R6",NA,"testthat, XML, xml2",NA,"BSD_3_clause + file LICENCE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"239","servr","C:/Users/pottj/R/packages","0.26",NA,"R (>= 3.0.0)","mime (>= 0.2), httpuv (>= 1.5.2), xfun, jsonlite",NA,"tools, later, rstudioapi, knitr (>= 1.9), rmarkdown",NA,"GPL",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"240","sessioninfo","C:/Users/pottj/R/packages","1.2.2",NA,"R (>= 2.10)","cli (>= 3.1.0), tools, utils",NA,"callr, covr, mockery, reticulate, rmarkdown, testthat, withr",NA,"GPL-2",NA,NA,NA,NA,"no","4.1.2","CRAN"
+"241","shape","C:/Users/pottj/R/packages","1.4.6",NA,"R (>= 2.01)","stats, graphics, grDevices",NA,NA,NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.0","CRAN"
+"242","shiny","C:/Users/pottj/R/packages","1.7.4",NA,"R (>= 3.0.2), methods","utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite
+(>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>=
+0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises
+(>= 1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>=
+1.1.0), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>=
+0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)",NA,"datasets, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>=
+1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0),
+magrittr, yaml, future, dygraphs, ragg, showtext, sass",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"243","slider","C:/Users/pottj/R/packages","0.3.0",NA,"R (>= 3.4.0)","cli (>= 3.4.1), rlang (>= 1.0.6), vctrs (>= 0.5.0), warp","vctrs (>= 0.5.0)","covr, dplyr (>= 1.0.0), knitr, lubridate, rmarkdown, testthat
+(>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"244","snakecase","C:/Users/pottj/R/packages","0.11.0",NA,"R (>= 3.2)","stringr, stringi",NA,"testthat, covr, tibble, purrrlyr, knitr, rmarkdown, magrittr",NA,"GPL-3",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"245","sodium","C:/Users/pottj/R/packages","1.2.1",NA,NA,NA,NA,"knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.1.3","CRAN"
+"246","sourcetools","C:/Users/pottj/R/packages","0.1.7-1",NA,"R (>= 3.0.2)",NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"247","sp","C:/Users/pottj/R/packages","1.6-0",NA,"R (>= 3.0.0), methods","utils, stats, graphics, grDevices, lattice, grid",NA,"RColorBrewer, rgdal (>= 1.2-3), rgeos (>= 0.3-13), gstat,
+maptools, deldir, knitr, rmarkdown, sf",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"248","sparklyr","C:/Users/pottj/R/packages","1.8.1",NA,"R (>= 3.2)","assertthat, base64enc, config (>= 0.2), DBI (>= 1.0.0), dbplyr
+(>= 2.2.1), digest, dplyr (>= 1.0.9), ellipsis (>= 0.1.0),
+forge, generics, globals, glue, httr (>= 1.2.1), jsonlite (>=
+1.4), methods, openssl (>= 0.8), purrr, r2d3, rappdirs, rlang
+(>= 0.1.4), rprojroot, rstudioapi (>= 0.10), tibble, tidyr (>=
+1.2.0), tidyselect, uuid, vctrs, withr, xml2",NA,"arrow (>= 0.17.0), broom, diffobj, foreach, ggplot2,
+iterators, janeaustenr, Lahman, mlbench, nnet, nycflights13,
+R6, RCurl, reshape2, shiny (>= 1.0.1), parsnip, testthat",NA,"Apache License 2.0 | file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"249","spatial","C:/Users/pottj/R/packages","7.3-16","recommended","R (>= 3.0.0), graphics, stats, utils",NA,NA,"MASS",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"250","SQUAREM","C:/Users/pottj/R/packages","2021.1",NA,"R (>= 3.0)",NA,NA,"setRNG",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.0","CRAN"
+"251","stringdist","C:/Users/pottj/R/packages","0.9.10",NA,"R (>= 2.15.3)","parallel",NA,"tinytest",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2","CRAN"
+"252","stringi","C:/Users/pottj/R/packages","1.7.12",NA,"R (>= 3.1)","tools, utils, stats",NA,NA,NA,"file LICENSE","yes",NA,NA,NA,"yes","4.2.2","CRAN"
+"253","stringr","C:/Users/pottj/R/packages","1.5.0",NA,"R (>= 3.3)","cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang
+(>= 1.0.0), stringi (>= 1.5.3), vctrs",NA,"covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat (>=
+3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"254","styler","C:/Users/pottj/R/packages","1.9.1",NA,"R (>= 3.5.0)","cli (>= 3.1.1), magrittr (>= 2.0.0), purrr (>= 0.2.3), R.cache
+(>= 0.15.0), rlang (>= 0.1.1), rprojroot (>= 1.1), tools, vctrs
+(>= 0.4.1), withr (>= 2.3.0),",NA,"data.tree (>= 0.1.6), digest, dplyr, here, knitr, prettycode,
+rmarkdown, roxygen2, rstudioapi (>= 0.7), tibble (>= 1.4.2),
+testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"255","svglite","C:/Users/pottj/R/packages","2.1.1",NA,"R (>= 3.0.0)","systemfonts (>= 1.0.0)","cpp11, systemfonts","covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown,
+testthat, xml2 (>= 1.0.0)",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"256","sys","C:/Users/pottj/R/packages","3.4.1",NA,NA,NA,NA,"unix (>= 1.4), spelling, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"257","systemfonts","C:/Users/pottj/R/packages","1.0.4",NA,"R (>= 3.2.0)",NA,"cpp11 (>= 0.2.1)","testthat (>= 2.1.0), covr, knitr, rmarkdown, tools",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.1.3","CRAN"
+"258","testit","C:/Users/pottj/R/packages","0.13",NA,NA,NA,NA,"rstudioapi, covr",NA,"GPL-3",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"259","testthat","C:/Users/pottj/R/packages","3.1.7",NA,"R (>= 3.1)","brio, callr (>= 3.5.1), cli (>= 3.4.0), desc, digest, ellipsis
+(>= 0.2.0), evaluate, jsonlite, lifecycle, magrittr, methods,
+pkgload, praise, processx, ps (>= 1.3.4), R6 (>= 2.2.0), rlang
+(>= 1.0.1), utils, waldo (>= 0.4.0), withr (>= 2.4.3)",NA,"covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, mockery,
+rmarkdown, rstudioapi, shiny, usethis, vctrs (>= 0.1.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"260","textrank","C:/Users/pottj/R/packages","0.3.1",NA,NA,"utils, data.table (>= 1.9.6), igraph, digest",NA,"textreuse, knitr, rmarkdown, udpipe (>= 0.2)",NA,"MPL-2.0",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"261","tibble","C:/Users/pottj/R/packages","3.2.1",NA,"R (>= 3.4.0)","fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods,
+pillar (>= 1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs
+(>= 0.4.2)",NA,"bench, bit64, blob, brio, callr, cli, covr, crayon (>=
+1.3.4), DiagrammeR, dplyr, evaluate, formattable, ggplot2,
+here, hms, htmltools, knitr, lubridate, mockr, nycflights13,
+pkgbuild, pkgload, purrr, rmarkdown, stringi, testthat (>=
+3.0.2), tidyr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"262","tictoc","C:/Users/pottj/R/packages","1.2",NA,"R (>= 2.15), methods",NA,NA,"testthat (>= 3.0.0)",NA,"Apache License (== 2.0) | file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"263","tidylog","C:/Users/pottj/R/packages","1.0.2",NA,NA,"dplyr, tidyr, glue, clisymbols",NA,"testthat, covr, forcats, knitr, rmarkdown, bench",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"264","tidymodels","C:/Users/pottj/R/packages","1.0.0",NA,"R (>= 3.4)","broom (>= 1.0.0), cli (>= 3.3.0), conflicted (>= 1.1.0), dials
+(>= 1.0.0), dplyr (>= 1.0.9), ggplot2 (>= 3.3.6), hardhat (>=
+1.2.0), infer (>= 1.0.2), modeldata (>= 1.0.0), parsnip (>=
+1.0.0), purrr (>= 0.3.4), recipes (>= 1.0.1), rlang (>= 1.0.3),
+rsample (>= 1.0.0), rstudioapi (>= 0.13), tibble (>= 3.1.7),
+tidyr (>= 1.2.0), tune (>= 1.0.0), workflows (>= 1.0.0),
+workflowsets (>= 1.0.0), yardstick (>= 1.0.0)",NA,"covr, glue, knitr, rmarkdown, testthat (>= 3.0.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"265","tidyr","C:/Users/pottj/R/packages","1.3.0",NA,"R (>= 3.4.0)","cli (>= 3.4.1), dplyr (>= 1.0.10), glue, lifecycle (>= 1.0.3),
+magrittr, purrr (>= 1.0.1), rlang (>= 1.0.4), stringr (>=
+1.5.0), tibble (>= 2.1.1), tidyselect (>= 1.2.0), utils, vctrs
+(>= 0.5.2)","cpp11 (>= 0.4.0)","covr, data.table, knitr, readr, repurrrsive (>= 1.1.0),
+rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"266","tidyselect","C:/Users/pottj/R/packages","1.2.0",NA,"R (>= 3.4)","cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang
+(>= 1.0.4), vctrs (>= 0.4.1), withr",NA,"covr, crayon, dplyr, knitr, magrittr, rmarkdown, stringr,
+testthat (>= 3.1.1), tibble (>= 2.1.3)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1","CRAN"
+"267","tidyverse","C:/Users/pottj/R/packages","2.0.0",NA,"R (>= 3.3)","broom (>= 1.0.3), conflicted (>= 1.2.0), cli (>= 3.6.0),
+dbplyr (>= 2.3.0), dplyr (>= 1.1.0), dtplyr (>= 1.2.2), forcats
+(>= 1.0.0), ggplot2 (>= 3.4.1), googledrive (>= 2.0.0),
+googlesheets4 (>= 1.0.1), haven (>= 2.5.1), hms (>= 1.1.2),
+httr (>= 1.4.4), jsonlite (>= 1.8.4), lubridate (>= 1.9.2),
+magrittr (>= 2.0.3), modelr (>= 0.1.10), pillar (>= 1.8.1),
+purrr (>= 1.0.1), ragg (>= 1.2.5), readr (>= 2.1.4), readxl (>=
+1.4.2), reprex (>= 2.0.2), rlang (>= 1.0.6), rstudioapi (>=
+0.14), rvest (>= 1.0.3), stringr (>= 1.5.0), tibble (>= 3.1.8),
+tidyr (>= 1.3.0), xml2 (>= 1.3.3)",NA,"covr (>= 3.6.1), feather (>= 0.3.5), glue (>= 1.6.2), mockr
+(>= 0.2.0), knitr (>= 1.41), rmarkdown (>= 2.20), testthat (>=
+3.1.6)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"268","timeDate","C:/Users/pottj/R/packages","4022.108",NA,"R (>= 3.6.0)","graphics, utils, stats, methods",NA,"RUnit",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"269","tinytex","C:/Users/pottj/R/packages","0.45",NA,NA,"xfun (>= 0.29)",NA,"testit, rstudioapi",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"270","triebeard","C:/Users/pottj/R/packages","0.4.1",NA,NA,"Rcpp","Rcpp","knitr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"271","tune","C:/Users/pottj/R/packages","1.1.1",NA,"R (>= 3.4)","cli (>= 3.3.0), dials (>= 1.0.0), dplyr (>= 1.0.8), foreach,
+generics (>= 0.1.2), ggplot2, glue (>= 1.6.2), GPfit, hardhat
+(>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.0.2), purrr (>=
+1.0.0), recipes (>= 1.0.4), rlang (>= 1.0.2), rsample (>=
+1.0.0), tibble (>= 3.1.0), tidyr (>= 1.2.0), tidyselect (>=
+1.1.2), vctrs (>= 0.6.1), withr, workflows (>= 1.0.0),
+yardstick (>= 1.0.0)",NA,"C50, covr, kernlab, kknn, knitr, modeldata, spelling,
+testthat (>= 3.0.0), xgboost, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"272","tzdb","C:/Users/pottj/R/packages","0.3.0",NA,"R (>= 3.4.0)",NA,"cpp11 (>= 0.4.2)","covr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.1.3","CRAN"
+"273","udpipe","C:/Users/pottj/R/packages","0.8.11",NA,"R (>= 2.10)","Rcpp (>= 0.11.5), data.table (>= 1.9.6), Matrix, methods,
+stats","Rcpp","knitr, rmarkdown, topicmodels, lattice, parallel",NA,"MPL-2.0",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"274","urlchecker","C:/Users/pottj/R/packages","1.0.1",NA,"R (>= 3.3)","cli, curl, tools, xml2",NA,"covr",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"275","urltools","C:/Users/pottj/R/packages","1.7.3",NA,"R (>= 2.10)","Rcpp, methods, triebeard","Rcpp","testthat, knitr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"276","usethis","C:/Users/pottj/R/packages","2.1.6",NA,"R (>= 3.4)","cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc
+(>= 1.4.0), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue
+(>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs,
+rlang (>= 1.0.0), rprojroot (>= 1.2), rstudioapi, stats, utils,
+whisker, withr (>= 2.3.0), yaml",NA,"covr, knitr, magick, mockr, pkgload, rmarkdown, roxygen2 (>=
+7.1.2), spelling (>= 1.2), styler (>= 1.2.0), testthat (>=
+3.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"277","utf8","C:/Users/pottj/R/packages","1.2.3",NA,"R (>= 2.10)",NA,NA,"cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0),
+withr",NA,"Apache License (== 2.0) | file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"278","uuid","C:/Users/pottj/R/packages","1.1-0",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.1.3","CRAN"
+"279","V8","C:/Users/pottj/R/packages","4.3.0",NA,NA,"Rcpp (>= 0.12.12), jsonlite (>= 1.0), curl (>= 1.0), utils","Rcpp","testthat, knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"280","vcd","C:/Users/pottj/R/packages","1.4-11",NA,"R (>= 2.10), grid","stats, utils, MASS, grDevices, colorspace, lmtest",NA,"KernSmooth, mvtnorm, kernlab, HSAUR3, coin",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"281","vctrs","C:/Users/pottj/R/packages","0.6.2",NA,"R (>= 3.5.0)","cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)",NA,"bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,
+pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>=
+3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2,
+zeallot",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"282","viridisLite","C:/Users/pottj/R/packages","0.4.1",NA,"R (>= 2.10)",NA,NA,"hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"283","visdat","C:/Users/pottj/R/packages","0.6.0",NA,"R (>= 3.2.2)","ggplot2, tidyr, dplyr, purrr, readr, magrittr, stats, tibble,
+glue, forcats, cli, scales",NA,"testthat (>= 3.0.0), plotly (>= 4.5.6), knitr, rmarkdown,
+vdiffr, spelling, covr, stringr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"284","vroom","C:/Users/pottj/R/packages","1.6.1",NA,"R (>= 3.4)","bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>=
+1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0),
+tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr","cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)","archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs,
+ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown,
+rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr,
+utils, waldo, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"285","waldo","C:/Users/pottj/R/packages","0.4.0",NA,NA,"cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang
+(>= 1.0.0), tibble",NA,"covr, R6, testthat (>= 3.0.0), withr, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"286","warp","C:/Users/pottj/R/packages","0.2.0",NA,"R (>= 3.2)",NA,NA,"covr, testthat (>= 2.1.0), knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1","CRAN"
+"287","webshot","C:/Users/pottj/R/packages","0.5.4",NA,"R (>= 3.0)","magrittr, jsonlite, callr",NA,"httpuv, knitr, rmarkdown, shiny, testthat (>= 3.0.0)",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"288","whisker","C:/Users/pottj/R/packages","0.4.1",NA,NA,NA,NA,"markdown",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"289","whoami","C:/Users/pottj/R/packages","1.3.0",NA,NA,"httr, jsonlite, utils",NA,"covr, mockery, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"290","withr","C:/Users/pottj/R/packages","2.5.0",NA,"R (>= 3.2.0)","graphics, grDevices, stats",NA,"callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown
+(>= 2.12), RSQLite, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.3","CRAN"
+"291","workflows","C:/Users/pottj/R/packages","1.1.3",NA,"R (>= 3.4)","cli (>= 3.3.0), generics (>= 0.1.2), glue (>= 1.6.2), hardhat
+(>= 1.2.0), lifecycle (>= 1.0.3), modelenv (>= 0.1.0), parsnip
+(>= 1.0.3), rlang (>= 1.0.3), tidyselect (>= 1.2.0), vctrs (>=
+0.4.1)",NA,"butcher (>= 0.2.0), covr, dials (>= 1.0.0), knitr, magrittr,
+modeldata (>= 1.0.0), recipes (>= 1.0.0), rmarkdown, testthat
+(>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"292","workflowsets","C:/Users/pottj/R/packages","1.0.1",NA,"R (>= 3.5)","cli, dplyr (>= 1.0.0), generics (>= 0.1.2), ggplot2, glue,
+hardhat (>= 1.2.0), lifecycle (>= 1.0.0), parsnip (>= 1.0.0),
+pillar (>= 1.7.0), prettyunits, purrr, rlang, rsample (>=
+0.0.9), stats, tibble (>= 3.1.0), tidyr, tune (>= 1.1.0),
+vctrs, withr, workflows (>= 1.0.0)",NA,"covr, dials (>= 0.1.0), finetune, kknn, knitr, modeldata,
+recipes (>= 1.0.0), rmarkdown, spelling, testthat (>= 3.0.0),
+tidyclust, yardstick (>= 1.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"293","xaringan","C:/Users/pottj/R/packages","0.28",NA,"R (>= 3.5.0)","htmltools, knitr (>= 1.30), servr (>= 0.13), xfun (>= 0.18),
+rmarkdown (>= 2.8)",NA,"rstudioapi, testit",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"294","xaringanExtra","C:/Users/pottj/R/packages","0.7.0",NA,NA,"htmltools, jsonlite, knitr, utils, uuid",NA,"callr, rmarkdown, testthat (>= 2.1.0), xaringan",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"295","xaringanthemer","C:/Users/pottj/R/packages","0.4.2",NA,"R (>= 2.10)","colorspace, glue, methods, purrr, utils, whisker",NA,"callr, ggplot2, knitr, mockery, rmarkdown, scales, showtext,
+sysfonts, testthat (>= 2.1.0), xaringan",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"296","xfun","C:/Users/pottj/R/packages","0.39",NA,NA,"stats, tools",NA,"testit, parallel, codetools, rstudioapi, tinytex (>= 0.30),
+mime, markdown (>= 1.5), knitr (>= 1.42), htmltools, remotes,
+pak, rhub, renv, curl, jsonlite, magick, yaml, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"297","xlsx","C:/Users/pottj/R/packages","0.6.5",NA,NA,"rJava, xlsxjars, grDevices, utils",NA,"rprojroot, testthat, covr, tibble, knitr, rmarkdown",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"298","xlsxjars","C:/Users/pottj/R/packages","0.6.1",NA,"rJava",NA,NA,NA,NA,"GPL-3",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"299","xml2","C:/Users/pottj/R/packages","1.3.3",NA,"R (>= 3.1.0)","methods",NA,"covr, curl, httr, knitr, magrittr, mockery, rmarkdown,
+testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.1.2","CRAN"
+"300","xmlparsedata","C:/Users/pottj/R/packages","1.0.5",NA,"R (>= 3.0.0)",NA,NA,"covr, testthat, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.0","CRAN"
+"301","xopen","C:/Users/pottj/R/packages","1.0.0",NA,"R (>= 3.1)","processx",NA,"ps, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.1.1","CRAN"
+"302","xtable","C:/Users/pottj/R/packages","1.8-4",NA,"R (>= 2.10.0)","stats, utils",NA,"knitr, plm, zoo, survival",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"303","yaml","C:/Users/pottj/R/packages","2.3.7",NA,NA,NA,NA,"RUnit",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"304","yardstick","C:/Users/pottj/R/packages","1.2.0",NA,"R (>= 3.4.0)","cli, dplyr (>= 1.1.0), generics (>= 0.1.2), hardhat (>=
+1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.0.6), tibble,
+tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0)",NA,"covr, crayon, ggplot2, knitr, probably (>= 0.0.6), rmarkdown,
+survival (>= 3.5-0), testthat (>= 3.0.0), tidyr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"305","zip","C:/Users/pottj/R/packages","2.3.0",NA,NA,NA,NA,"covr, processx, R6, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"306","zoo","C:/Users/pottj/R/packages","1.8-12",NA,"R (>= 3.1.0), stats","utils, graphics, grDevices, lattice (>= 0.20-27)",NA,"AER, coda, chron, ggplot2 (>= 3.0.0), mondate, scales,
+stinepack, strucchange, timeDate, timeSeries, tis, tseries, xts",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"307","base","C:/Program Files/R/R-4.2.3/library","4.2.3","base",NA,NA,NA,"methods",NA,"Part of R 4.2.3",NA,NA,NA,NA,NA,"4.2.3","R Core Team and contributors worldwide"
+"308","boot","C:/Program Files/R/R-4.2.3/library","1.3-28.1","recommended","R (>= 3.0.0), graphics, stats",NA,NA,"MASS, survival",NA,"Unlimited",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"309","class","C:/Program Files/R/R-4.2.3/library","7.3-21","recommended","R (>= 3.0.0), stats, utils","MASS",NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"310","cluster","C:/Program Files/R/R-4.2.3/library","2.1.4","recommended","R (>= 3.5.0)","graphics, grDevices, stats, utils",NA,"MASS, Matrix",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"311","codetools","C:/Program Files/R/R-4.2.3/library","0.2-19","recommended","R (>= 2.1)",NA,NA,NA,NA,"GPL",NA,NA,NA,NA,"no","4.2.3","CRAN"
+"312","compiler","C:/Program Files/R/R-4.2.3/library","4.2.3","base",NA,NA,NA,NA,NA,"Part of R 4.2.3",NA,NA,NA,NA,NA,"4.2.3","Luke Tierney <luke-tierney@uiowa.edu>"
+"313","datasets","C:/Program Files/R/R-4.2.3/library","4.2.3","base",NA,NA,NA,NA,NA,"Part of R 4.2.3",NA,NA,NA,NA,NA,"4.2.3","R Core Team and contributors worldwide"
+"314","foreign","C:/Program Files/R/R-4.2.3/library","0.8-84","recommended","R (>= 4.0.0)","methods, utils, stats",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"315","graphics","C:/Program Files/R/R-4.2.3/library","4.2.3","base",NA,"grDevices",NA,NA,NA,"Part of R 4.2.3",NA,NA,NA,NA,"yes","4.2.3","R Core Team and contributors worldwide"
+"316","grDevices","C:/Program Files/R/R-4.2.3/library","4.2.3","base",NA,NA,NA,"KernSmooth",NA,"Part of R 4.2.3",NA,NA,NA,NA,"yes","4.2.3","R Core Team and contributors worldwide"
+"317","grid","C:/Program Files/R/R-4.2.3/library","4.2.3","base",NA,"grDevices, utils",NA,NA,NA,"Part of R 4.2.3",NA,NA,NA,NA,"yes","4.2.3","Paul Murrell <paul@stat.auckland.ac.nz>"
+"318","KernSmooth","C:/Program Files/R/R-4.2.3/library","2.23-20","recommended","R (>= 2.5.0), stats",NA,NA,"MASS, carData",NA,"Unlimited",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"319","lattice","C:/Program Files/R/R-4.2.3/library","0.20-45","recommended","R (>= 3.0.0)","grid, grDevices, graphics, stats, utils",NA,"KernSmooth, MASS, latticeExtra","chron","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"320","MASS","C:/Program Files/R/R-4.2.3/library","7.3-58.2","recommended","R (>= 3.3.0), grDevices, graphics, stats, utils","methods",NA,"lattice, nlme, nnet, survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"321","Matrix","C:/Program Files/R/R-4.2.3/library","1.5-3","recommended","R (>= 3.5.0), methods","graphics, grid, lattice, stats, utils",NA,"expm, MASS","MatrixModels, graph, SparseM, sfsmisc, igraph, maptools, sp,
+spdep","GPL (>= 2) | file LICENCE",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"322","methods","C:/Program Files/R/R-4.2.3/library","4.2.3","base",NA,"utils, stats",NA,"codetools",NA,"Part of R 4.2.3",NA,NA,NA,NA,"yes","4.2.3","R Core Team"
+"323","mgcv","C:/Program Files/R/R-4.2.3/library","1.8-42","recommended","R (>= 3.6.0), nlme (>= 3.1-64)","methods, stats, graphics, Matrix, splines, utils",NA,"parallel, survival, MASS",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"324","nlme","C:/Program Files/R/R-4.2.3/library","3.1-162","recommended","R (>= 3.5.0)","graphics, stats, utils, lattice",NA,"Hmisc, MASS, SASmixed",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"325","nnet","C:/Program Files/R/R-4.2.3/library","7.3-18","recommended","R (>= 3.0.0), stats, utils",NA,NA,"MASS",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"326","parallel","C:/Program Files/R/R-4.2.3/library","4.2.3","base",NA,"tools, compiler",NA,"methods","snow, nws, Rmpi","Part of R 4.2.3",NA,NA,NA,NA,"yes","4.2.3","R Core Team"
+"327","rpart","C:/Program Files/R/R-4.2.3/library","4.1.19","recommended","R (>= 2.15.0), graphics, stats, grDevices",NA,NA,"survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"328","spatial","C:/Program Files/R/R-4.2.3/library","7.3-16","recommended","R (>= 3.0.0), graphics, stats, utils",NA,NA,"MASS",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"329","splines","C:/Program Files/R/R-4.2.3/library","4.2.3","base",NA,"graphics, stats",NA,"Matrix, methods",NA,"Part of R 4.2.3",NA,NA,NA,NA,"yes","4.2.3","Douglas M. Bates <bates@stat.wisc.edu> and
+ William N. Venables <Bill.Venables@csiro.au>"
+"330","stats","C:/Program Files/R/R-4.2.3/library","4.2.3","base",NA,"utils, grDevices, graphics",NA,"MASS, Matrix, SuppDists, methods, stats4",NA,"Part of R 4.2.3",NA,NA,NA,NA,"yes","4.2.3","R Core Team and contributors worldwide"
+"331","stats4","C:/Program Files/R/R-4.2.3/library","4.2.3","base",NA,"graphics, methods, stats",NA,NA,NA,"Part of R 4.2.3",NA,NA,NA,NA,NA,"4.2.3","R Core Team and contributors worldwide"
+"332","survival","C:/Program Files/R/R-4.2.3/library","3.5-3","recommended","R (>= 3.5.0)","graphics, Matrix, methods, splines, stats, utils",NA,NA,NA,"LGPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3","CRAN"
+"333","tcltk","C:/Program Files/R/R-4.2.3/library","4.2.3","base",NA,"utils",NA,NA,NA,"Part of R 4.2.3",NA,NA,NA,NA,"yes","4.2.3","R Core Team"
+"334","tools","C:/Program Files/R/R-4.2.3/library","4.2.3","base",NA,NA,NA,"codetools, methods, xml2, curl, commonmark, knitr, xfun, mathjaxr",NA,"Part of R 4.2.3",NA,NA,NA,NA,"yes","4.2.3","R Core Team"
+"335","translations","C:/Program Files/R/R-4.2.3/library","4.2.3",NA,NA,NA,NA,NA,NA,"Part of R 4.2.3",NA,NA,NA,NA,NA,"4.2.3","R Core Team and contributors worldwide"
+"336","utils","C:/Program Files/R/R-4.2.3/library","4.2.3","base",NA,NA,NA,"methods, xml2, commonmark, knitr",NA,"Part of R 4.2.3",NA,NA,NA,NA,"yes","4.2.3","R Core Team and contributors worldwide"
