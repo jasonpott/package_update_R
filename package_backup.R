@@ -24,6 +24,6 @@ packages <- installed.packages() |>
 if (os == "Windows"){
 write.csv(packages, file = paste0(gsub(pattern = "W",replacement = "w",os), "_installed_packages.csv"))
 } else {
-  write.csv(packages, file = paste0(gsub(pattern = "M",replacement = "m",os), "_installed_packages.csv"))
+  write.csv(packages, file = paste0(gsub(pattern = "D",replacement = "d",os), "_installed_packages.csv"))
 
 }
